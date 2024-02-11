@@ -1,0 +1,150 @@
+.big {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+    border-radius: 10px;
+
+    >p {
+        margin: 5px;
+        padding: 5px 5px;
+     
+        >svg{
+            color: rgb(89, 33, 33);
+            font-size: 25px;
+            cursor: pointer;
+            >:hover{
+                color: rgb(144, 102, 47);
+            }
+        }
+    }
+
+    >.s-big {
+        width: 100%;
+        background-color: blueviolet;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        place-items: center;
+
+
+
+
+        >._1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            background: transparent;
+            border: solid 0.5mm grayscale($color: #000000);
+            border-radius: 10px;
+
+            >img {
+                width: 150px;
+                height: 150px;
+            }
+
+            >p {
+                margin: 0;
+                padding: 0;
+                color: navajowhite;
+            }
+        }
+
+        >._2 {
+
+
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            padding: 10px;
+
+            >.qty {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 0;
+                border-radius: 10px;
+
+
+                >p {
+                    margin: 5px;
+                    color: navajowhite;
+                }
+
+                >button {
+                    height: 25px;
+                    width: 25px;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                width: 50%;
+            }
+
+            >p {
+                margin: 0;
+                padding: 0;
+                color: bisque;
+            }
+
+
+        }
+
+        >.price {
+            >p {
+                color: bisque;
+            }
+        }
+    }
+}
+
+
+
+.bottom{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    >.cart_bottom_line{
+        width: 75%;
+        background-color: red;
+        border: 2px solid rgb(73, 11, 11);
+    }
+
+    >.calculation_container{
+        >p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            >code{
+                // position: absolute;
+                right: 0;
+            }
+            // background-color: green;
+        }
+    }
+
+    >.placeorder{
+        background-color: green;
+        color: whitesmoke;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+}

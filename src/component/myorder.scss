@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.big_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    padding:  15px 0;
+    border-radius: 20px;
+    background-color: rebeccapurple;
+
+
+    >.order_Container {
+
+        width: 100%;
+        padding: 0 50px;
+        display: flex;
+        align-items: center;
+
+        gap: 10px;
+
+        >img {
+            height: 150px;
+            width: 150px;
+
+            border-radius: 10px;
+            padding: 1px;
+            border: 0.5px solid red;
+        }
+
+        >div {
+            display: flex;
+            padding: 0;
+
+            p {
+
+                margin: 0;
+            }
+
+            flex-direction: column;
+
+        }
+    }
+
+}
+
+.myorders {
+    >h5 {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+
+.bottom_div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+    >.partition_line {
+        border: 2px solid red;
+        width: 70%;
+
+    }
+
+
+}
+

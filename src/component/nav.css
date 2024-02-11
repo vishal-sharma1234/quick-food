@@ -1,0 +1,7 @@
+.cart{
+    height: 400px;
+    width: 500px;
+    background-color: red;
+    z-index: 100;
+    
+}
